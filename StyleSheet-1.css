@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    color: white;
+    height: 100px;
+    padding: 20px;
+}
+
+.nav-item {
+    font-size: large;
+}
+
+.nav-link {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+body {
+
+    background-color: #272727;
+    color: whitesmoke;
+    border-left: grey;
+    border-left-style: solid;
+    margin-left: 20px;
+    height: 100px;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    background-color: #272727;
+    border-color: whitesmoke;
+}
+
+.row {
+    padding-top: 100px;
+}
+
+.flexable {
+    display: flex;
+    align-content: left;
+    justify-content: space-between;
+}
+
+.designPic {
+    height: 500px;
+    width: 500px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.list-group-item {
+    background-color: #272727;
+    color: whitesmoke;
+}
+
+.card-body {
+    color: whitesmoke;
+}
+
+.bolded {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    margin: 50px;
+}
+
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 90px;
+    padding-right: 90px;
+    border-top: white;
+    border-style: solid;
+    border-bottom: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-width: 2px;
+}
+
+.footer2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.quote{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#credit{
+    text-align: end;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-right: 20%;
+}
+
+#discord{
+    width:25px;
+    height: 25px;
+}
+
+#profilePic{
+    height: 700px;
+}
+
+.picDescription {
+    text-align: left;
+}
+
+#grey{
+    color: grey;
+}
+
+.buttonFormat{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.contactFormat{
+    background-color: #272727;
+    color: white;
+    width: 200px;
+    margin: 20px;
+}
+
+.contactFormat::placeholder{
+    color: white;
+}
+
+.contactFormat2{
+    background-color: #272727;
+    color: white;
+    margin: 20px;
+    width: 445px;
+}
+.contactFormat2::placeholder{
+    color: white;
+}
+
+.contactButtonFormat{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 6px;
+    margin: 20px;
+}
+
+.topLeftMediaButtons {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+/* Media Query written by chatgpt :) */
+@media (max-width: 768px) {
+    .nav {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .nav-item {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+
+    .nav-link {
+        font-size: large;
+    }
+
+    body {
+        margin-left: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .row {
+        padding-top: 50px;
+    }
+
+    .flexable {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .designPic {
+        height: auto;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .bolded {
+        font-size: large;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .quote {
+        font-size: large;
+    }
+
+    #credit {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    #discord {
+        width: 20px;
+        height: 20px;
+    }
+
+    #profilePic {
+        height: auto;
+        width: 100%;
+    }
+
+    .topLeftMediaButtons {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
