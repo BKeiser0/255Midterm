@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+<!-- head tag linking bootstrap and stylesheet -->
+
 <head>
     <meta charset="UTF-8" />
     <title>MidTerm Exam Project</title>
@@ -12,15 +14,16 @@
 </head>
 
 <body>
+    <!-- bootstrap nav bar -->
     <nav class="d-flex justify-content-between">
-
+        <!-- this is me trying to put name in top left with a little help from chat gpt -->
         <ul class="nav me-auto">
             <li class="nav-item">
                 <a class="nav-link" href="https://www.instagram.com/" target="_blank">Brady</a>
             </li>
         </ul>
 
-
+        <!-- the rest of bootstrap nav bar -->
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link" href="#skills">#Skills</a>
@@ -38,36 +41,37 @@
         </ul>
     </nav>
 
-    
+    <!-- little line was a border on the whole body with CSS formatting. + the vertical media buttons -->
     <div class="topLeftMediaButtons">
         <a href="https://discord.com/" target="_blank"> <img
-            src="png-clipart-discord-computer-icons-logo-computer-software-others-miscellaneous-blue-thumbnail.png"
-            id="discord"></a> <br>
-    <a href="https://www.figma.com/" target="_blank"> <img src="R.png" id="discord"></a> <br>
-    <a href="https://github.com/" target="_blank"> <img src="387-3872188_github-logo-github-png-clipart.png"
-            id="discord"></a>
+                src="png-clipart-discord-computer-icons-logo-computer-software-others-miscellaneous-blue-thumbnail.png"
+                id="discord"></a> <br>
+        <a href="https://www.figma.com/" target="_blank"> <img src="R.png" id="discord"></a> <br>
+        <a href="https://github.com/" target="_blank"> <img src="387-3872188_github-logo-github-png-clipart.png"
+                id="discord"></a>
     </div>
-    
 
+    <!-- text and profile image with formatting -->
     <div class="container text-center">
         <div class="row">
             <div class="col">
-                <div class="picDescription">
+                <article class="picDescription">
                     <h1>Brady is a web designer and front-end developer</h1>
                     <h2 id="grey">He crafts responsive websites where technologies meet creativity</h2> <br>
                     <a class="buttonFormat" href="Contacts-1.html" target="_blank">Contact me !!</a>
-                </div>
+                </article>
 
             </div>
             <div class="col">
                 <img src="IMG_0261.jpeg" id="profilePic">
             </div>
 
+            <!-- quote and formatting for it -->
             <div class="rowTEST">
 
                 <div class="row">
                     <div class="col">
-                        <p class="quote">"With great power comes great responsibility"</p>
+                        <article class="quote">"With great power comes great responsibility"</article>
                         <p id="credit">- Uncle Ben</p>
                     </div>
                 </div>
@@ -77,7 +81,7 @@
 
 
 
-
+            <!-- grid formatting with bootstrap cards as base -->
             <div class="row">
                 <div class="flexable">
                     <h1 id="projects">#Projects:</h1> <a href="https://www.google.com/" target="_blank">
@@ -117,10 +121,13 @@
             </div>
 
 
+            <!-- skills header -->
             <div class="row">
                 <div class="flexable">
                     <h1 id="skills">#Skills:</h1>
                 </div>
+
+                <!-- took an image of the little design and croped background out, then used bootstrap list groups for the boxes with dummy content -->
                 <div class="container text-center">
                     <div class="row">
                         <div class="col">
@@ -170,6 +177,7 @@
                     </div>
                 </div>
 
+                <!-- about me section was just made with articles and text with a little grid formatting -->
                 <div class="row">
                     <div class="flexable">
                         <h1 id="about-me">#About-me:</h1>
@@ -177,14 +185,15 @@
                 </div>
                 <div class="bolded">
                     <p>Hello! Im Brady!</p>
-                    <p>I'm a self-taught front-end developer base in the United States. I can develope respoinsive
-                        websites from scratch and raise them into modern user-friendly web experiences.</p>
-                    <p>Transforming my creativity and knowledge into a website has been my passion for over a year. I
+                    <article>I'm a self-taught front-end developer base in the United States. I can develope respoinsive
+                        websites from scratch and raise them into modern user-friendly web experiences.</article> <br>
+                    <article>Transforming my creativity and knowledge into a website has been my passion for over a
+                        year. I
                         have been helping various clients to establish their presence online. I always strive to learn
-                        about the newest technologies and frameworks.</p>
+                        about the newest technologies and frameworks.</article>
                 </div>
 
-
+                <!-- Contacts basically the same things as about -->
                 <div class="row">
                     <div class="flexable">
                         <h1 id="projectlabel">#Contacts</h1>
@@ -192,18 +201,19 @@
                 </div>
 
                 <div class="bolded">
-                    <p id="contacts">I'm intereted in freelance oppertunities. However, if you have other request or
+                    <article id="contacts">I'm intereted in freelance oppertunities. However, if you have other request
+                        or
                         questions, don't
-                        hesitate to contact me</p>
+                        hesitate to contact me</article>
                 </div>
             </div>
 
         </div>
     </div>
 
-
+    <!-- footer section of the page -->
     <div class="grid-container">
-
+        <!-- used chat gpt to get the spacing right  -->
         <footer class="footer">
             <div class="footer-section left">
                 <a> Brady</a> <a>Bjkeiser@svsu.edu</a> <br>
@@ -211,6 +221,7 @@
             </div>
             <div class="footer-section right">
                 <a> Media</a> <br>
+                <!-- little media buttons  -->
                 <a href="https://discord.com/" target="_blank"> <img
                         src="png-clipart-discord-computer-icons-logo-computer-software-others-miscellaneous-blue-thumbnail.png"
                         id="discord"></a>
@@ -219,6 +230,7 @@
                         id="discord"></a>
             </div>
         </footer>
+        <!-- made a seperate section to align the copyright on the bottom middle cause i couldn't get it to work with the other part of the footer -->
         <footer class="footer2">
             <a> &copy; Copyright 2024. Made by Brady</a>
         </footer>

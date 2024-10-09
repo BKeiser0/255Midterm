@@ -1,7 +1,22 @@
 
+/* root and body CSS variable from chat gpt */
+:root { 
+    --primary-color: #272727;
+    --font-size: 12px;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: var(--font-size);
+}
+
 *{
     margin: 0;
     padding: 0;
+}
+
+.root{
+    color: #272727;
 }
 
 .nav {
@@ -165,7 +180,9 @@ h1 {
     position: absolute;
 }
 
-/* Media Query written by chatgpt :) */
+
+
+/* Media Query written by chatgpt */
 @media (max-width: 768px) {
     .nav {
         height: auto;
